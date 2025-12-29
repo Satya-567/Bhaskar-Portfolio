@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO -->
+    <title>Jaya Satya Bhaskar | Portfolio</title>
+    <meta name="description" content="Portfolio of Jaya Satya Bhaskar, Full Stack Developer and Machine Learning Enthusiast. Projects include Image Tampering Detection, Phishing Detection, and Web Applications.">
+    <meta name="keywords" content="Jaya Satya Bhaskar, Full Stack Developer, Machine Learning, Portfolio, Web Developer">
+    <meta name="author" content="Jaya Satya Bhaskar">
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon-32x32.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar">
+        <h2 class="logo">JAYA SATYA BHASKAR</h2>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+    <div class="hero-content">
+
+        <!-- LEFT: TEXT -->
+        <div class="hero-text">
+            <h1>Hi, I'm <span>Bhaskar</span></h1>
+            <p>Full Stack Developer | Machine Learning Enthusiast</p>
+            </br>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <a href="Bhaskar_Resume_SDE.pdf" class="btn secondary" download>Download Resume</a>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/Satya-567" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/bhaskar-siragam-ab05232b8/" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+
+        <!-- RIGHT: PROFILE IMAGE -->
+        <div class="hero-image">
+            <img src="Bhaskar_pic.jpeg" alt="Bhaskar Profile Picture" loading="lazy">
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+        I am a B.Tech student passionate about Full Stack Development and Machine Learning.</br>
+        I enjoy building real-world projects like Image Tampering Detection and Phishing Detection systems.</br>
+        I have hands-on experience with below mentioned technologies.</br>
+        I also have a keen interest in exploring new technologies and enhancing my skills.</br>
+        I am eager to apply my skills in internships and contribute to impactful projects.
+    </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>JavaScript</span>
+        <span>Bootstrap</span>
+        <span>Java</span>
+        <span>SQL</span>
+        <span>Python</span>
+        <span>Machine Learning</span>
+    </div>
+    <p>
+        These are some of the technologies and skills I have worked with.</br>
+        I have also done some certifications in these domains to enhance my knowledge.
+    </p>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+    <h2>Projects</h2>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h3>Image Tampering Detection</h3>
+            </br>
+            <p>
+                Machine learning based system to detect manipulated images and visualize tampered regions.</br>
+                Built using Python, OpenCV, and Scikit-learn libraries.</br>
+                Used ELA Error Level Analysis for classification of tampered regions of the images.</br>
+                Achieved high accuracy in identifying tampered images.
+            </p>
+            <div class="project-links">
+                <a href="https://github.com/Satya-567/Image-Tampering-Detection" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>Geo Probe Explorer</h3>
+            </br>
+            <p>
+                JavaScript based exploration of geological data with high accuracy.</br>
+                Will conduct a survey using Google Forms to gather user feedback for further improvements.</br>
+                Then incorporate the feedback to enhance user experience and functionality.</br>
+                Aiming to make it a comprehensive tool for geological data analysis.
+            </p>
+            <div class="project-links">
+                <a href="https://github.com/Satya-567/Geo-Probe-Explorer" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>Nature's Legacy Initiative</h3>
+            </br>
+            <p>
+                IOT based system to test and give insights on soil quality</br>
+                So that we can use it for better agricultural practices.
+            </p>
+            <div class="project-links">
+                <a href="#" target="_blank">GitHub</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- CONTACT -->
+<!-- CONTACT -->
+<section id="contact" class="section">
+    <h2>Contact Me</h2>
+</br>
+    <form class="contact-form"
+          action="https://docs.google.com/forms/d/e/1FAIpQLSeTQz-712w58SszRc6-n3st46EY_FbsT24dvbIw3mU7G5MK6w/formResponse"
+          method="POST">
+
+        <input type="email"
+               name="entry.1088901326"
+               placeholder="Your Email"
+               required>
+
+        <textarea name="entry.1007927234"
+                  placeholder="Your Message"
+                  required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+
+        <a href="tel:+919618479499" class="btn call-btn">📞 Call Me</a>
+    </form>
+
+    <p id="success-msg" style="display:none;color:#38bdf8;margin-top:10px;">
+        Message sent successfully!
+    </p>
+</section>
+
+
+<script>
+document.querySelector(".contact-form").addEventListener("submit", function () {
+    document.getElementById("success-msg").style.display = "block";
+});
+</script>
+
+</br>
+
+<footer>
+    <p>© 2025 Bhaskar. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
